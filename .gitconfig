@@ -1,3 +1,5 @@
 [user]
 	name = Ozoku
 	email = dragon.djozoku@gmail.com
+[credential]
+	helper = cache

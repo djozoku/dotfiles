@@ -72,7 +72,7 @@
     #luaenv                  # lua version from luaenv (https://github.com/cehoffman/luaenv)
     #jenv                    # java version from jenv (https://github.com/jenv/jenv)
     #plenv                   # perl version from plenv (https://github.com/tokuhirom/plenv)
-    #phpenv                  # php version from phpenv (https://github.com/phpenv/phpenv)
+    phpenv                  # php version from phpenv (https://github.com/phpenv/phpenv)
     #haskell_stack           # haskell version from stack (https://haskellstack.org/)
     #kubecontext             # current kubernetes context (https://kubernetes.io/)
     #terraform               # terraform workspace (https://www.terraform.io)
