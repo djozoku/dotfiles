@@ -45,6 +45,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # Set XDisplay
-#export HOST_IP="$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}')"
-export HOST_IP=127.0.0.1
-export DISPLAY=$HOST_IP:0
+export DISPLAY=`grep nameserver /etc/resolv.conf | awk '{print $2}'`:0
+
+export PATH="$HOME/.poetry/bin:$PATH"
