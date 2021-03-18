@@ -1,7 +1,6 @@
 # Load ssh-agent plugin beforehand
 export SHORT_HOST=$HOST
 zstyle :omz:plugins:ssh-agent agent-forwarding on
-zstyle :omz:plugins:ssh-agent identities id_rsa id_github
 . ~/.oh-my-zsh/plugins/ssh-agent/ssh-agent.plugin.zsh
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
